@@ -22,7 +22,7 @@ public class Kalapacsvetes {
         int dobasokSzama = 0; // A dobások száma
         Map<String, Integer> orszagStatisztika = new HashMap<>(); // Ország statisztika tárolására
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\\\\\\\Users\\\\\\\\peter\\\\\\\\Desktop\\\\\\\\meres-2025-01\\\\\\\\kalapacsvetes.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\peter\\Desktop\\meres-2025-01\\kalapacsvetes.txt"))) {
             String line = reader.readLine(); // Fejléc beolvasása, de nem írjuk ki
 
             while ((line = reader.readLine()) != null) {
